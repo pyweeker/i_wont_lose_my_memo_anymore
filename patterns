@@ -2,7 +2,7 @@ https://stackoverflow.com/questions/41633831/python-override-a-method-without-cr
 
 
 Strategy
---------
+========
 
 import types
 
@@ -20,7 +20,7 @@ Note that this only effects this specific instance, no other instances will be e
 **********************************************************************************************************
 https://stackoverflow.com/questions/41633831/python-override-a-method-without-creating-a-derived-class-and-call-the-original/41634119
 
-monkey patching
+Monkey Patching
 ===============
 
 ModuleB.py
