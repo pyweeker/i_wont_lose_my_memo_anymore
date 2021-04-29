@@ -1,1 +1,41 @@
-abc
+https://stackoverflow.com/questions/41633831/python-override-a-method-without-creating-a-derived-class-and-call-the-original/41634119
+
+
+Strategy
+
+import types
+
+def strategyA(possible_self):
+    pass
+
+instance = OrigObject()
+
+instance.strategy = types.MethodType(strategyA, instance)
+
+instance.strategy()
+
+Note that this only effects this specific instance, no other instances will be effected.
+
+**********************************************************************************************************
+https://stackoverflow.com/questions/41633831/python-override-a-method-without-creating-a-derived-class-and-call-the-original/41634119
+
+monky patching
+
+ModuleB.py
+
+from ModuleA import FooClass
+
+# Preserve the original function:
+FooClass.originalFooMethode = FooClass.fooMethode
+
+def _newFooMethod(self):
+    if(not hasAttr(self,"varA "):
+        self.varA = 0
+    #Do some checks with varA
+
+    #CALL ORIGINAL fooMethod
+    self.originalFooMethode()
+
+FooClass.fooMethod = _newFooMethod
+
+**********************************************************************************************************
