@@ -1,0 +1,17 @@
+for creativity trips ...
+
+https://en.wikipedia.org/wiki/Unified_Canadian_Aboriginal_Syllabics_(Unicode_block)
+
+https://stackoverflow.com/questions/932328/python-defining-my-own-operators
+https://docs.python.org/3/library/operator.html#mapping-operators-to-functions
+https://rszalski.github.io/magicmethods/
+https://code.activestate.com/recipes/384122/
+https://sametmax.com/le-module-operator-en-python/
+-------------------
+
+https://en.wikipedia.org/wiki/Magic_number_(programming)#In_files
+
+OS distros :  https://www.youtube.com/watch?v=2EduJ03RFLk
+https://www.linuxtricks.fr/news/10-logiciels-libres/464-mon-avis-sur-les-snaps-de-canonical/
+
+
