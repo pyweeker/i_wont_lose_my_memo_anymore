@@ -1,0 +1,4 @@
+example with development branch of resources from pythonarcade
+
+svn export https://github.com/pythonarcade/arcade/branches/development/arcade/resources
+========================================================================================
