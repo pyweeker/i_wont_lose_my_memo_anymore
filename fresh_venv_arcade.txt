@@ -1,0 +1,7 @@
+pipenv --venv
+---->  the_folder
+
+rm -rf the_folder
+
+pipenv install https://github.com/pythonarcade/arcade/archive/refs/heads/development.zip
+
