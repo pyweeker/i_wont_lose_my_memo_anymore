@@ -2,3 +2,4 @@ https://forum.doom9.org/showthread.php?t=182740
 
 https://korben.info/comment-lire-bluray-linux-vlc.html
 
+https://stackoverflow.com/questions/68763915/vlc-missing-aacs-settings-for-bluray-on-xubuntu-focal
