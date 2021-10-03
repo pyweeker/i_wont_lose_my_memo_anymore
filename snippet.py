@@ -9,3 +9,10 @@ class resource_cl():
         
 ----------------------------
 
+Comparing two dictionaries and checking how many (key, value) pairs are equal
+
+shared_items = {k: x[k] for k in x if k in y and x[k] == y[k]}
+
+----------------------------
+
+Mixin  :  https://dev.to/bikramjeetsingh/write-composable-reusable-python-classes-using-mixins-6lj
